@@ -210,6 +210,15 @@ void test_forks(int i) {
 - 互斥：多个进程在同一时刻只有一个进程能进入临界区
 </details>
 
+##### 同步/异步/阻塞/非阻塞  BIO/NIO/AIO 的区别
+<details>
+<summary>展开</summary>
+
+[别人的博客](https://www.cnblogs.com/lixinjie/p/a-post-about-io-clearly.html)
+</details>
+
+
+
 ##### 并发、并行、异步的区别？
 
 <details>
