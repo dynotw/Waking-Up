@@ -270,7 +270,7 @@ InnoDB的索引使用的是B+树实现，B+树对比B树的好处：
 - 虚拟索引（Virtual）：模拟索引的存在而不用真正创建一个索引，用于快速测试创建索引对执行计划的影响。没有相关的索引段，不增加存储空间的使用
 
 ### MySQL的两种存储引擎 InnoDB 和 MyISAM 的区别？
-- InnoDB**支持事务**，可以进行Commit和Rollback；
+- InnoDB**支持事务**，可以进行Commit和Rollback；MyISAM都不行
 - MyISAM 只支持表级锁，而 InnoDB 还**支持行级锁**，提高了并发操作的性能；
 - InnoDB **支持外键**；
 - MyISAM **崩溃**后发生损坏的概率比 InnoDB 高很多，而且**恢复的速度**也更慢；
